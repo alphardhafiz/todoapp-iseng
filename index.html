@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Todolist</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Todolist Apisss Buci</h1>
+    </header>
+    <div class="container">
+      <div class="container-form container-task">
+        <h2 class="container-header center">Tambah yang harus dilakukan</h2>
+        <form class="form-task" action="">
+          <label class="label" for="task"
+            >Masukkan hal yang akan dilakukan</label
+          >
+          <input type="text" name="task" id="task" />
+          <label class="label" for="date">Masukkan tanggal harus selesai</label>
+          <input type="date" name="date" id="date" />
+          <button class="btn btn-submit">Submit</button>
+        </form>
+      </div>
+      <div class="container-form">
+        <h2 class="container-header">Yang harus dilakukan</h2>
+        <div class="list-item" id="todos">
+          <div class="item shadow">
+            <div class="inner">
+              <h2>Baca Buku</h2>
+              <p>25 Januari 2023</p>
+            </div>
+            <div class="icons">
+              <i class="icon fa-solid fa-check"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-form">
+        <h2 class="container-header">Yang sudah dilakukan</h2>
+        <div class="list-item" id="complete-todos">
+          <div class="item shadow">
+            <div class="inner">
+              <h2>Baca Buku</h2>
+              <p>25 Januari 2023</p>
+            </div>
+            <div class="icons">
+              <i class="icon fa-solid fa-rotate-left"></i>
+              <i class="icon fa-solid fa-trash"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

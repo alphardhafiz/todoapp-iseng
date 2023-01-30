@@ -1,0 +1,137 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  color: white;
+}
+
+body {
+  background-color: #f2cd5c;
+}
+
+.center {
+  text-align: center;
+}
+
+.shadow {
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+.btn {
+  padding: 8px 16px;
+  width: 100px;
+  border: none;
+  border-radius: 20px;
+  font-family: inherit;
+  background-color: #f2cd5c;
+  color: #400e32;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #a61f69;
+  color: white;
+}
+
+/* Header */
+header {
+  background-color: #f2921d;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container-form {
+  width: 60%;
+  height: fit-content;
+  background-color: #f2921d;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.container-task .form-task {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-task {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.container-task .form-task .label {
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.container-task .form-task input {
+  outline: none;
+  font-family: inherit;
+  border-radius: 8px;
+  border: none;
+  padding: 8px;
+}
+
+.btn-submit {
+  margin-top: 10px;
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.container-form .list-item .item {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  color: #400e32;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-form .list-item .item .icons {
+  display: flex;
+}
+.container-form .list-item .item .icon {
+  background-color: #f2cd5c;
+  color: #400e32;
+  padding: 4px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container-form .list-item .item .icon:hover {
+  background-color: #a61f69;
+  color: white;
+}
+
+.container-form .list-item .item .inner h2 {
+  font-size: 20px;
+}
