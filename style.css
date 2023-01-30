@@ -134,3 +134,14 @@ header {
 .container-form .list-item .item .inner h2 {
   font-size: 20px;
 }
+
+@media screen and (max-width: 500px) {
+  .container-form {
+    width: 80%;
+  }
+  .btn-submit {
+    margin-top: 10px;
+    display: block;
+    width: 88%;
+  }
+}
