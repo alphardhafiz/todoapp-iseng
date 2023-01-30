@@ -147,12 +147,6 @@ header {
   .container-form .list-item .item .inner h2 {
     font-size: 14px;
   }
-  .container-form .list-item .item .inner p {
-    font-size: 14px;
-  }
-  .container-form .list-item .item .icon {
-    transform: scale(0.8);
-  }
   .container-header {
     text-align: center;
     font-size: 20px;
