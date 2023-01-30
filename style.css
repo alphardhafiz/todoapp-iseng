@@ -99,7 +99,6 @@ header {
 
 .container-form .list-item .item {
   background-color: white;
-  color: black;
   padding: 10px;
   border-radius: 10px;
   margin-top: 10px;
@@ -113,8 +112,8 @@ header {
   display: flex;
 }
 .container-form .list-item .item .icon {
-  background-color: #f2cd5c;
-  color: #400e32;
+  background-color: #a61f69;
+  color: #f2cd5c;
   padding: 4px;
   height: 30px;
   width: 30px;
@@ -128,7 +127,7 @@ header {
 }
 
 .container-form .list-item .item .icon:hover {
-  background-color: #a61f69;
+  background-color: #f2921d;
   color: white;
 }
 

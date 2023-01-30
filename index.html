@@ -34,38 +34,39 @@
           <input type="text" name="task" id="task" />
           <label class="label" for="date">Masukkan tanggal harus selesai</label>
           <input type="date" name="date" id="date" />
-          <button class="btn btn-submit">Submit</button>
+          <button id="btn-submit" class="btn btn-submit">Submit</button>
         </form>
       </div>
       <div class="container-form">
         <h2 class="container-header">Yang harus dilakukan</h2>
         <div class="list-item" id="todos">
-          <div class="item shadow">
+          <!-- <div class="item shadow">
             <div class="inner">
               <h2>Baca Buku</h2>
               <p>25 Januari 2023</p>
             </div>
             <div class="icons">
-              <i class="icon fa-solid fa-check"></i>
+              <i id="button-check" class="icon fa-solid fa-check"></i>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="container-form">
         <h2 class="container-header">Yang sudah dilakukan</h2>
-        <div class="list-item" id="complete-todos">
-          <div class="item shadow">
+        <div class="list-item" id="completed-todos">
+          <!-- <div class="item shadow">
             <div class="inner">
               <h2>Baca Buku</h2>
               <p>25 Januari 2023</p>
             </div>
             <div class="icons">
-              <i class="icon fa-solid fa-rotate-left"></i>
-              <i class="icon fa-solid fa-trash"></i>
+              <i id="button-undo" class="icon fa-solid fa-rotate-left"></i>
+              <i id="button-remove" class="icon fa-solid fa-trash"></i>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
